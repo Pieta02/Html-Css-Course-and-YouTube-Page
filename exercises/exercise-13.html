@@ -1,0 +1,360 @@
+<html>
+  <head>
+    <style>
+    .flexbox {
+      display: flex;
+      flex-direction: row;
+      height: 50px;
+      margin-bottom: 50px;
+    }
+    .column1 {
+      background-color: lightpink;
+      width: 100px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .item1 {
+      background-color: black;
+      color: white;
+    }
+    .column2 {
+      background-color: lightblue;
+      width: 200px;
+    }
+
+
+
+    .text2 {
+      display: flex;
+      justify-content: space-between;
+    }
+    .row2 {
+      background-color: black;
+      color: white;
+    }
+
+
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      border: solid;
+      border-width: 1px;
+      border-radius: 5px;
+      border-color: rgb(194, 194, 194);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+      padding: 10px 15px 10px 15px;
+      width: 400px;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    .image {
+      height: 50px;
+      width: 50px;
+      object-fit: cover;
+      border-radius: 25px;
+      margin-right: 5px;
+    }
+    .cont1 {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 15px;
+    }
+    .cont2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .cont3 {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      line-height: 20px;
+    }
+
+
+    .mega-container {
+      display: flex;
+      flex-direction: column;
+      border: solid;
+      border-width: 1px;
+      border-radius: 5px;
+      border-color: rgb(194, 194, 194);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+      width: 450px;
+      margin-top: 50px;
+      flex: 1;
+      margin-bottom: 250px;
+    }
+    .containerr {
+      display: flex;
+      flex-direction: column;
+      padding: 10px 15px 10px 15px;
+      width: 400px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .big-container {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 200px;
+      width: 400px;
+      
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .link-box {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(200, 200, 200);
+      border-radius: 15px;
+      overflow: hidden;
+      margin-top: 5px;
+    }
+
+    .name {
+      font-family: Arial;
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+    .email {
+      font-family: Arial;
+      font-size: 15px;
+      font-weight: 100;
+      color: gray;
+    }
+
+    .normal-text {
+      margin-top: 5px;
+      font-family: Arial;
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+
+    .link-box-text {
+      margin-left: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .link-box-left {
+      background-color: rgb(201, 201, 201);
+      width: 85px;
+      padding: 5px;
+    }
+    
+
+    .thumbnail-column {
+      height: 105%;
+      width: 85px;
+      background-color: rgb(201, 201, 201);
+      padding: 0;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="flexbox">
+      <div class="column1">
+        <div class="item1">item1</div>
+      </div>
+      <div class="column2"></div>
+    </div>
+
+
+    <div class="flexbox">
+      <div class="column1"></div>
+      <div class="column2">
+        <div>row1</div>
+        <div  class="text2">
+          <div class="row2">row2</div>
+          <div class="row2">row2</div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="container">
+      <div style="
+        font-family: Arial;
+        font-size: 14px;
+        color: gray;
+        padding-left: 5px ;
+        ">All INBOXES</div>
+      <div class="cont1">
+        <div><img class="image" src="/thumbnails/cat.jpg" alt=""></div>
+        <div class="cont3">
+          <div class="cont2">
+            <div style="
+            font-family: Arial;
+            font-size: 16px;
+            font-weight: bold;
+            ">Chewy Promotions</div>
+            <div style="
+            font-family: Arial;
+            font-size: 12px;
+            color: gray;
+            ">4:58 PM</div>
+          </div>
+          <div style="
+          font-family: Arial;
+          font-size: 14px;
+          font-weight: bold;
+          ">Biggest sales of the year!</div>
+          <div style="
+          font-family: Arial;
+          font-size: 12px;
+          color: gray;
+          ">Hey there! We're writing to tell you about our...</div>
+        </div>
+        </div>
+    </div>
+
+
+
+    <div class="mega-container">
+      <div class="containerr">
+        <div style="
+          font-family: Arial;
+          font-size: 14px;
+          color: gray;
+          padding-left: 5px ;
+          ">All INBOXES</div>
+        <div class="cont1">
+          <div><img class="image" src="/thumbnails/cat.jpg" alt=""></div>
+          <div class="cont3">
+            <div class="cont2">
+              <div style="
+              font-family: Arial;
+              font-size: 16px;
+              font-weight: bold;
+              ">Chewy Promotions</div>
+              <div style="
+              font-family: Arial;
+              font-size: 12px;
+              color: gray;
+              ">4:58 PM</div>
+            </div>
+            <div style="
+            font-family: Arial;
+            font-size: 14px;
+            font-weight: bold;
+            ">Biggest sales of the year!</div>
+            <div style="
+            font-family: Arial;
+            font-size: 12px;
+            color: gray;
+            ">Hey there! We're writing to tell you about our...</div>
+          </div>
+          </div>
+      </div>
+      <div class="containerr">
+        
+        <div class="cont1">
+          <div><img class="image" src="/thumbnails/dog.jpg" alt=""></div>
+          <div class="cont3">
+            <div class="cont2">
+              <div style="
+              font-family: Arial;
+              font-size: 16px;
+              font-weight: bold;
+              ">Best Buy</div>
+              <div style="
+              font-family: Arial;
+              font-size: 12px;
+              color: gray;
+              ">12:32 PM</div>
+            </div>
+            <div style="
+            font-family: Arial;
+            font-size: 14px;
+            font-weight: bold;
+            ">Your Best Buy eReceipt</div>
+            <div style="
+            font-family: Arial;
+            font-size: 12px;
+            color: gray;
+            ">Thank you for shopping at Best Buy, here is...</div>
+          </div>
+          </div>
+      </div>
+      <div class="containerr">
+        
+        <div class="cont1">
+          <div><img class="image" src="/thumbnails/cat2.jpg" alt=""></div>
+          <div class="cont3">
+            <div class="cont2">
+              <div style="
+              font-family: Arial;
+              font-size: 16px;
+              font-weight: bold;
+              ">Netflix</div>
+              <div style="
+              font-family: Arial;
+              font-size: 12px;
+              color: gray;
+              ">9:00 AM</div>
+            </div>
+            <div style="
+            font-family: Arial;
+            font-size: 14px;
+            font-weight: bold;
+            ">Here's what's coming soon to Netflix</div>
+            <div style="
+            font-family: Arial;
+            font-size: 12px;
+            color: gray;
+            ">Brand new movies and shows, old favorites...</div>
+          </div>
+          </div>
+      </div>
+    </div>
+    
+
+
+
+
+
+    <div class="big-container">
+      <div><img class="image" src="/thumbnails/cat.jpg" alt=""></div>
+      <div class="content">
+        <div class="name">
+          supersimple.dev <span class="email">@SuperSimpleDev</span>
+        </div>
+        <div class="normal-text">
+          What is backend web development? A complete overview. New video is up!
+        </div>
+        <div class="link-box">
+          <div class="thumbnail-column"></div>
+          <div class="link-box-text">
+            <div class="normal-text">youtube.com</div>
+            <div class="normal-text">
+              Backend web development - a complete overview (2021)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
