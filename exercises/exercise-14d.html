@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .model {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: white;
+      height: 100px;
+      width: 300px;
+      padding: 10px 20px 10px 20px;
+      border-radius: 8px;
+    }
+
+    .model-title {
+      font-family: Arial;
+      font-size: 25px;
+      color: black;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .model-content {
+      color: black;
+      font-family: Arial;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    .model-button {
+      border-radius: 3px;
+      border-width: 1px;
+    }
+  </style>
+</head>
+<body style="
+height: 3000px;
+">
+  
+  <div style="
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: black;
+  color: white;
+  ">
+    bottom right
+  </div>
+
+  <div style="
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  background-color: green;
+  color: white;
+  ">
+    right sidebar
+  </div>
+  <!--
+  <div style="
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  ">
+    everywhere
+  </div>
+  -->
+
+  <div style="
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  ">
+    <div class="model">
+      <div class="model-title">Model Title</div>
+      <div class="model-content">This is a model</div>
+      <div><button class="model-button">Close</button></div>
+    </div>
+  </div>
+</body>
+</html>
